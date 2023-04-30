@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>main_window</class>
+ <widget class="QMainWindow" name="main_window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1051</width>
+    <height>773</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Machine Learning</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>30</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>MACHINE LEARNING</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="import_btn">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>50</y>
+      <width>93</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Import</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="data_table">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>1011</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Marital status</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Application mode</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Application order</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Course</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Daytime/evening attendance</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Previous qualification</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Nacionality</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Mother's qualification</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Father's qualification</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Mother's occupation</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Father's occupation</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Displaced</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Educational special needs</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Debtor</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Tuition fees up to date</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Gender</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Scholarship holder</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Age at enrollment</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>International</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Curricular units 1st sem (credited)</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Curricular units 1st sem (enrolled)</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Curricular units 1st sem (evaluations)</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Curricular units 1st sem (approved)</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Curricular units 1st sem (grade)</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Curricular Units 1st Sem (without Evaluations)</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Curricular Units 2nd Sem (credited)</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Curricular Units 2nd Sem (enrolled)</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Curricular Units 2nd Sem (evaluations)</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Curricular Units 2nd Sem (approved)</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Curricular Units 2nd Sem (grade)</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Curricular Units 2nd Sem (without Evaluations)</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Unemployment Rate</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Inflation Rate</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Inflation Rate</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Target</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>0</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Welcome: </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>970</x>
+      <y>0</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Test</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>70</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Shape of dataset: </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="shape">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>60</y>
+      <width>161</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="tab_ml">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>490</y>
+      <width>1001</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="data">
+     <attribute name="title">
+      <string>Data Analyst</string>
+     </attribute>
+     <widget class="QComboBox" name="cbo_data">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>80</y>
+        <width>321</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>Percentage of Student Target</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Demographics</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QPushButton" name="btn_view">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>80</y>
+        <width>89</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>View</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>35</y>
+        <width>281</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Analyst the data from the import file:</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Training">
+     <attribute name="title">
+      <string>Traning Model</string>
+     </attribute>
+     <widget class="QProgressBar" name="progressBar">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>20</y>
+        <width>561</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>24</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>30</y>
+        <width>81</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Traning:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_train">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>130</y>
+        <width>93</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Train </string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_pridict">
+      <property name="geometry">
+       <rect>
+        <x>780</x>
+        <y>20</y>
+        <width>93</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Pridict</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1051</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuProfile">
+    <property name="title">
+     <string>Profile</string>
+    </property>
+    <addaction name="actionUpdate_profile"/>
+    <addaction name="actionSign_out"/>
+   </widget>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>About</string>
+    </property>
+    <addaction name="actionAbout_us"/>
+   </widget>
+   <addaction name="menuProfile"/>
+   <addaction name="menuAbout"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionUpdate_profile">
+   <property name="text">
+    <string>Update profile</string>
+   </property>
+  </action>
+  <action name="actionSign_out">
+   <property name="text">
+    <string>Sign out</string>
+   </property>
+  </action>
+  <action name="actionAbout_us">
+   <property name="text">
+    <string>About us</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
